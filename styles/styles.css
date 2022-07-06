@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200&family=Quicksand:wght@300;400;500&family=Ubuntu+Mono:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2? family= Merriweather:ital,wght@1,700 & display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +11,72 @@ body {
   background-color: aliceblue;
   font-family: 'Great Vibes', cursive;
 }
+.container{
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+  padding: 5%;
+  color: #86895d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.v-line-top{
+  border-left: solid 2px;
+  height:12.5%;
+  left: 50%;
+  position: absolute;
+  top: 23%;
+ }
+ .v-line-bottom{
+  border-left: solid 2px;
+  height:13%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+ }
+.nocur{
+  font-family: 'Merriweather', serif;
+  margin-top: 10px;
+  font-size: 17px;
+ 
+}
+.name{
+  font-size: 40px;
+  padding: 10%;
+
+}
+ul{
+  /* margin: 0 auto; */
+  /* padding: 0; */
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+  
+}
+.button{
+  background-color: transparent;
+  border-color: #86895d;
+  padding: 5px;
+  border-radius: 4px;
+  outline: none;
+}
+li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 2px solid;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.fecha{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
 
 .main-card {
   width: 100%;
@@ -21,4 +87,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
