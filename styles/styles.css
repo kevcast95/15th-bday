@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@200&family=Quicksand:wght@300;400;500&family=Ubuntu+Mono:ital@1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: aliceblue;
+  font-family: 'Great Vibes', cursive;
+}
+
+.main-card {
+  width: 100%;
+  max-width: 414px;
+  height: 100vh;
+  background-image: url('../imgs/canvas.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
