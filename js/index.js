@@ -470,8 +470,9 @@ function validateInvitate() {
 
 window.onload = function() {
   const pathName = window.location.pathname
-  console.log("pathName",pathName);
+  console.log("pathName",pathName,pathName.includes("/info.html"));
   if(pathName.includes("/info.html")) {
+    console.log('Holaaaaaaaaaaaaaa');
     const invitedName = document.getElementById("invited-name")
     const quota = document.getElementById("quota")
     const guest = JSON.parse(localStorage.getItem("invited"))
