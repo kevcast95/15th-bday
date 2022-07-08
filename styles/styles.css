@@ -14,6 +14,7 @@ body {
 .container{
   width: 90%;
   height: 70%;
+  position: relative;
   margin: 0 auto;
   padding: 5%;
   color: #86895d;
@@ -27,25 +28,31 @@ body {
   height:12.5%;
   left: 50%;
   position: absolute;
-  top: 23%;
+  top: 13%;
+  animation: right-fade  1s linear;
+  animation-timing-function: ease-out;
  }
  .v-line-bottom{
   border-left: solid 2px;
   height:13%;
-  left: 50%;
+  right: 50%;
   position: absolute;
   top: 50%;
+  animation: left-fade  1s linear;
+  animation-timing-function: ease-out;
  }
 .nocur{
   font-family: 'Merriweather', serif;
   margin-top: 10px;
   font-size: 17px;
- 
 }
 .name{
   font-size: 40px;
   padding: 10%;
-
+}
+.invited-name {
+  font-size: 20px;
+  font-weight: bold;
 }
 ul{
   /* margin: 0 auto; */
@@ -61,8 +68,11 @@ ul{
   padding: 5px;
   border-radius: 4px;
   outline: none;
+  color: #86895d;
 }
 li{
+  width: 76px;
+  font-family: 'Merriweather', serif;
   float: left;
   display: block;
   text-align: center;
@@ -71,7 +81,9 @@ li{
   border-right: 2px solid;
   font-size: 20px;
   font-weight: bold;
-
+}
+.last-i {
+  border-right: none
 }
 .fecha{
   font-family: 'Courier New', Courier, monospace;
@@ -89,4 +101,38 @@ li{
   margin: 0 auto;
   display: flex;
   align-items: center;
+}
+
+.code_container {
+  width: 50%;
+  margin: 0 auto;
+}
+.code_container input{
+  width: 50%;
+  height: 30px;
+  color: #86895d;
+  padding-left: 10px;
+}
+
+.confirm {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+@keyframes right-fade {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes left-fade {
+  from {
+    right: 0;
+  }
+  to {
+    right: 50%;
+  }
 }
