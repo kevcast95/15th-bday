@@ -454,6 +454,11 @@ const guests = [
     "code": "5476",
     "quota": "2"
   },
+  {
+    "invited": "Jackson peña y Sra",
+    "code": "5477",
+    "quota": "2"
+  },
 ]
 function validateInvitate() {
   const code = document.getElementById("code").value
