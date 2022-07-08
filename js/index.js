@@ -474,6 +474,7 @@ window.onload = function() {
     const invitedName = document.getElementById("invited-name")
     const quota = document.getElementById("quota")
     const guest = JSON.parse(localStorage.getItem("invited"))
+    console.log("guest",guest);
     invitedName.innerText = guest[0].invited;
     quota.innerText = `CUPO ( S ) : ${guest[0].quota}`
   }
