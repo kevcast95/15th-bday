@@ -30,7 +30,7 @@ const guests = [
     "quota": "2"
   },
   {
-    "invited": "FAMILIA ARROYO OVALE",
+    "invited": "FAMILIA ARROYO OLAVE",
     "code": "1240",
     "quota": "2"
   },
@@ -455,9 +455,89 @@ const guests = [
     "quota": "2"
   },
   {
-    "invited": "Jackson peña y Sra",
+    "invited": "JACKSON PEÑA Y SRA",
     "code": "5477",
     "quota": "2"
+  },
+  {
+    "invited": "FAMILIA ARRIETA PADILLA",
+    "code": "5478",
+    "quota": "2"
+  },
+  {
+    "invited": "PROFESOR NORIEGA MORA",
+    "code": "5479",
+    "quota": "2"
+  },
+  {
+    "invited": "MAYRA ALBARRACIN",
+    "code": "5480",
+    "quota": "1"
+  },
+  {
+    "invited": "FAMILIA TURIZO PALENCIA",
+    "code": "5481",
+    "quota": "2"
+  },
+  {
+    "invited": "SRA JOSEFA REALES",
+    "code": "5482",
+    "quota": "1"
+  },
+  {
+    "invited": "IVAN AGUDELO",
+    "code": "5483",
+    "quota": "1"
+  },
+  {
+    "invited": "YURIBI HERNANDEZ",
+    "code": "5484",
+    "quota": "1"
+  },
+  {
+    "invited": "MANUEL DE JESÚS",
+    "code": "5485",
+    "quota": "1"
+  },
+  {
+    "invited": "SUGEY SANTOS",
+    "code": "5486",
+    "quota": "2"
+  },
+  {
+    "invited": "FAMILIA GIL PEÑATE",
+    "code": "5487",
+    "quota": "3"
+  },
+  {
+    "invited": "CESAR GOMEZ",
+    "code": "5489",
+    "quota": "1"
+  },
+  {
+    "invited": "ERICK DONADO",
+    "code": "5490",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA NORIS CERVANTES",
+    "code": "5491",
+    "quota": "2"
+  },
+  {
+    "invited": "JUAN DANIEL",
+    "code": "5492",
+    "quota": "1"
+  },
+  {
+    "invited": "SANTIAGO",
+    "code": "5493",
+    "quota": "1"
+  },
+  {
+    "invited": "ALEJANDRO",
+    "code": "5494",
+    "quota": "1"
   },
 ]
 function validateInvitate() {
