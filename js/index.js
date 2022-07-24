@@ -540,11 +540,6 @@ const guests = [
     "quota": "1"
   },
   {
-    "invited": "GISELLE PLATA",
-    "code": "5493",
-    "quota": "1"
-  },
-  {
     "invited": "FABIAN CASTRO",
     "code": "5494",
     "quota": "1"
@@ -603,7 +598,12 @@ const guests = [
     "invited": "Alicia",
     "code": "5505",
     "quota": "2"
-  }
+  },
+  {
+    "invited": "GISELLE PLATA",
+    "code": "5506",
+    "quota": "1"
+  },
 ]
 function validateInvitate() {
   const code = document.getElementById("code").value
