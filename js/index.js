@@ -539,6 +539,71 @@ const guests = [
     "code": "5493",
     "quota": "1"
   },
+  {
+    "invited": "GISELLE PLATA",
+    "code": "5493",
+    "quota": "1"
+  },
+  {
+    "invited": "FABIAN CASTRO",
+    "code": "5494",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA INGRID CONDE",
+    "code": "5495",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA CLAUDIA ARCE",
+    "code": "5496",
+    "quota": "1"
+  },
+  {
+    "invited": "EFRAIN",
+    "code": "5497",
+    "quota": "1"
+  },
+  {
+    "invited": "SERGIO",
+    "code": "5498",
+    "quota": "1"
+  },
+  {
+    "invited": "AINER",
+    "code": "5499",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA NADIA",
+    "code": "5500",
+    "quota": "2"
+  },
+  {
+    "invited": "SR LUIS ARRIETA Y SRA",
+    "code": "5501",
+    "quota": "2"
+  },
+  {
+    "invited": "ALEXANDER Y GABRIELA",
+    "code": "5502",
+    "quota": "2"
+  },
+  {
+    "invited": "CIELO",
+    "code": "5503",
+    "quota": "1"
+  },
+  {
+    "invited": "DIEGO RICO",
+    "code": "5504",
+    "quota": "1"
+  },
+  {
+    "invited": "Alicia",
+    "code": "5505",
+    "quota": "2"
+  }
 ]
 function validateInvitate() {
   const code = document.getElementById("code").value
@@ -553,9 +618,9 @@ function validateInvitate() {
   }
 }
 
-window.onload = function() {
+window.onload = function () {
   const pathName = window.location.pathname
-  if(pathName.includes("/info.html")) { 
+  if (pathName.includes("/info.html")) {
     const invitedName = document.getElementById("invited-name")
     const quota = document.getElementById("quota")
     const guest = JSON.parse(localStorage.getItem("invited"))
