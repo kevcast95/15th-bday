@@ -513,7 +513,7 @@ export const guests = [
     "invited": "DIEGO RICO",
     "code": "5488",
     "quota": "1"
-  }
+  },
   {
     "invited": "Alicia",
     "code": "5489",
