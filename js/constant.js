@@ -454,4 +454,69 @@ export const guests = [
     "code": "5476",
     "quota": "2"
   },
+  {
+    "invited": "GISELLE PLATA",
+    "code": "5477",
+    "quota": "1"
+  },
+  {
+    "invited": "FABIAN CASTRO",
+    "code": "5478",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA INGRID CONDE",
+    "code": "5479",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA CLAUDIA ARCE",
+    "code": "5480",
+    "quota": "1"
+  },
+  {
+    "invited": "EFRAIN",
+    "code": "5481",
+    "quota": "1"
+  },
+  {
+    "invited": "SERGIO",
+    "code": "5482",
+    "quota": "1"
+  },
+  {
+    "invited": "AINER",
+    "code": "5483",
+    "quota": "1"
+  },
+  {
+    "invited": "SRA NADIA",
+    "code": "5484",
+    "quota": "2"
+  },
+  {
+    "invited": "SR LUIS ARRIETA Y SRA",
+    "code": "5485",
+    "quota": "2"
+  },
+  {
+    "invited": "ALEXANDER Y GABRIELA",
+    "code": "5486",
+    "quota": "2"
+  },
+  {
+    "invited": "CIELO",
+    "code": "5487",
+    "quota": "1"
+  },
+  {
+    "invited": "DIEGO RICO",
+    "code": "5488",
+    "quota": "1"
+  }
+  {
+    "invited": "Alicia",
+    "code": "5489",
+    "quota": "2"
+  }
 ]
